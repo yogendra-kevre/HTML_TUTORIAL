@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--cell padding also added here -->
+        <!--To align the table headings, use the CSS text-align property:-->
+       <title>HTML Collapse Border Table Example.</title>
+       <style>
+           table,th,td{
+                        border: black 1px solid;
+                        border-collapse: collapse;
+                        padding: 15px;
+                       }
+                    th{
+                        text-align: left
+                    }
+       </style>
+    </head>
+    <body>
+       <table style="width: 50%;">
+           <tr>
+               <th>FirstName</th>
+               <th>LastName</th>
+               <th>Age</th>
+           </tr>
+           <tr>
+               <td>Yogendra</td>
+               <td>Kevre</td>
+               <td>28</td>
+           </tr>
+           <tr>
+                <td>Geeta</td>
+                <td>D.</td>
+                <td>27</td>
+            </tr>
+       </table> 
+      <!--HTML Table - Cells that Span Many Columns-->
+      <h1>HTML Table - Cells that Span Many Columns</h1>
+      <table style="width: 50%;">
+            <tr>
+                <th>FirstName</th>
+                <th colspan="2">PhoneNumber</th>
+                
+            </tr>
+            <tr>
+                <td>Yogendra</td>
+                <td>123</td>
+                <td>456</td>
+            </tr>
+            <tr>
+                 <td>Geeta</td>
+                 <td>789</td>
+                 <td>123</td>
+             </tr>
+        </table> 
+        <!--HTML Table - Cells that Span Many Row-->
+        <!--Here we are Adding the Caption also to Table-->
+        <h1>HTML Table - Cells that Span Many Row</h1>
+        <table style="width: 50%;">
+            <caption style="font-size: 200%">Employee Details</caption>
+                <tr>
+                    <th>Name</th>
+                    <td>Yogendra Kevre</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Phone Number</th>
+                    <td>123</td>
+                </tr>
+                <tr>
+                     <td>456</td>
+                </tr>
+                <tr>
+                    <th >Name</th>
+                    <td>Geeta</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Phone Number</th>
+                        <td>789</td>
+                    </tr>
+                    <tr>
+                        <td>123</td>
+                    </tr>
+
+            </table> 
+    </body>
+</html>
