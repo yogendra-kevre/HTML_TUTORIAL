@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--exaple of table styling -->
+       <title>HTML Table Styling Example.</title>
+       <style>
+           table,th,td{
+                        border: yellow 1px solid;
+                        border-collapse: collapse;
+                        padding: 15px;
+                       }
+                    th{
+                        text-align: left
+                    }
+                #t01{ 
+                    width: 50%;
+                    background-color: #f1f1c1;
+                    }
+                #t02{ 
+                    width: 50%;
+                    }
+                #t02 tr:nth-child(even)
+                    {
+                        background-color:green;
+                    }
+                #t02 tr:nth-child(odd)
+                    {
+                        background-color:red;
+                    }
+                #t02 th
+                    {
+                        color: white;
+                        background-color:black;
+                    }   
+       </style>
+       <body>
+            <table id="t01">
+                <tr>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Yogendra</td>
+                    <td>Kevre</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                     <td>Geeta</td>
+                     <td>D.</td>
+                     <td>27</td>
+                 </tr>
+            </table> 
+        <h1>Add more styles:</h1>
+            <table id="t02">
+                <tr>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Yogendra</td>
+                    <td>Kevre</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                     <td>Geeta</td>
+                     <td>D.</td>
+                     <td>27</td>
+                 </tr>
+            </table> 
+        </body>
+
+        
+
+    </head>
